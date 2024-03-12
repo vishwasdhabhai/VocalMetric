@@ -1,0 +1,9 @@
+.wrapper {
+  padding: 5px;
+  display: inline-block;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.wrapper:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.wrapper {
+  min-height: 50px;
+  display: grid;
+  grid-template-columns: auto 80px 80px;
+  background-color: #21212c;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.logo{
+  display: grid;
+  grid-template-columns: 40px auto;
+  cursor: pointer;
+}
+
+.icon {
+  width:30px;
+  height: 30px;
+}
+
+.navItem {
+  display: grid;
+  place-items: center end;
+  
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.page {
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+}
+
+

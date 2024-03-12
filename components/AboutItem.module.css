@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: #21212c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.question {
+    color: #0d76ff;
+    margin-bottom: 10px;
+}
+
+.answer {
+    margin-bottom:8px;
+    font-family: 'JetBrains Mono', monospace;
+}

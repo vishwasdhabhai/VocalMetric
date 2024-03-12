@@ -1,0 +1,13 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 70px auto;
+    margin: 10px 0;
+  }
+  
+  .wrapper:hover {
+    cursor: pointer;
+  }
+
+  .sample {
+    color: #808080
+  }

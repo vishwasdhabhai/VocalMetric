@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: #21212c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title {
+    color: #0d76ff;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-family: 'JetBrains Mono', monospace;
+}

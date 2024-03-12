@@ -1,0 +1,8 @@
+.listItem {
+  margin: 10px 0;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  color: orange;
+}
