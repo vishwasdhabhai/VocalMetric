@@ -1,14 +1,14 @@
 .input {
-    background-color: #21212C;
+    background-color: #ffffff;
     outline: none;
     max-width:600px;
     display: inline-block;
     height: 50px;
     border-radius:5px;
-    border: 2px dashed aqua;
+    border: 2px dashed #465be8;
     padding: 0 20px;
     font-size:32px;
-    color: white;
+    color: #21212C;
     font-weight: bold;
     font-family: "Montserrat", sans-serif;
     margin-top:15px;

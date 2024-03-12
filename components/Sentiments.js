@@ -142,7 +142,7 @@ const Sentiments = ({ audioWaveForm, dGTranscript }) => {
             </div>
           </>
         ) : (
-          <h1>Select sentiment to get cues</h1>
+          <h1>Select Sentiment.</h1>
         )}
       </div>
     </ViewSplitter>

@@ -63,7 +63,7 @@ const Player = ({ audio, audioWaveForm, dGTranscript }) => {
         {currentTime}/{audioLength}
       </h2>
       <h3 className={styles.title}>
-        {audio ? audio.name : "DEV X Deepgram hackathon.mp3"}
+        {audio ? audio.name : "sample.mp3"}
       </h3>
       <div className={styles.player}>
         <img

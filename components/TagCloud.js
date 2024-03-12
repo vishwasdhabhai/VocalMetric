@@ -84,7 +84,7 @@ function SimpleCloud({ audioWaveForm, dGTranscript }) {
             </div>
           </div>
         ) : (
-          <h1>Select a tag to get cues</h1>
+          <h1>Select a Tag.</h1>
         )}
       </div>
     </ViewSplitter>

@@ -16,7 +16,7 @@ const WaveForm = ({ url, setAudioWaveForm }) => {
     if (!waveform.current) {
       waveform.current = Wavesurfer.create({
         container: "#waveform",
-        waveColor: "white",
+        waveColor: "#999d9e",
         progressColor: "#0d76ff",
         barGap: 2,
         barWidth: 3,

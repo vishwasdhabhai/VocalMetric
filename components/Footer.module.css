@@ -7,8 +7,8 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: #21212c;
-  color: rgb(255, 255, 255);
+  background-color: #999d9e;
+  color: #1d1e21;
   padding: 10px 20px; 
   font-family: 'Rubik', sans-serif;
 }
@@ -18,5 +18,5 @@
 }
 
 .link {
-  color: #0D76FF
+  color: #465be8
 }

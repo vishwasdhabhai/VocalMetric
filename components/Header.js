@@ -14,18 +14,7 @@ const Header = () => {
               Router.reload(window.location.pathname);
           }}
         >
-          <img className={styles.icon} src="logo/cue.png" alt="cue" />
-          <h2 className={styles.name}>VoiceCue</h2>
-        </div>
-      </Link>
-      <Link href="/features">
-        <div className={styles.navItem}>
-          <p className={`${styles.link} ${styles.page}`}>Features</p>
-        </div>
-      </Link>
-      <Link href="/about">
-        <div className={styles.navItem}>
-          <p className={`${styles.link} ${styles.page}`}>About</p>
+          <h2 className={styles.name}>voicemetric</h2>
         </div>
       </Link>
     </header>

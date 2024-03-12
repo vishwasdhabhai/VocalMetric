@@ -33,10 +33,6 @@ export default function Home() {
     <div className={styles.container}>
       <ViewSplitter>
         <div>
-          <h1 className={styles.title}>Decode the voice with VoiceCue</h1>
-          <h3 className={styles.subtitle}>
-            Find sentiments, tags, entities, actions instantly
-          </h3>
           <FileSelector setAudio={setAudio} setDGTranscript={setDGTranscript} />
         </div>
         <div style={{ display: "grid", placeItems: "center end" }}>
