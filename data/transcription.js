@@ -3,7 +3,7 @@
 
 export const transcription = {
   transcript:
-    "Hey. Hi Tv. This application lets you find sentiments, tags, entities, and actions in your voice recordings instantly. It is based on Deepgram Api, which is among the leading voice recognition solutions, giving you access to all Deepgram trained speech recognition models. The Api even recognizes person names like John and Jane, places like London and Paris and organizations like Google and Microsoft. You can also upload your voice recording for analytics and insights. Please go ahead and try.",
+    "Hey. Hi Divey. This application lets you find sentiments, tags, entities, and actions in your voice recordings instantly. It is based on Deepgram Api, which is among the leading voice recognition solutions, giving you access to all Deepgram trained speech recognition models. The Api even recognizes person names like John and Jane, places like London and Paris and organizations like Google and Microsoft. You can also upload your voice recording for analytics and insights. Please go ahead and try.",
   confidence: 0.99658203,
   words: [
   {

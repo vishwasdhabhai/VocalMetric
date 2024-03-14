@@ -1,14 +1,15 @@
 import { useState, useRef } from "react";
 import { FileUploader } from "react-drag-drop-files";
 import styles from "./FileSelector.module.css";
+import elevenlabs from "../pages/api/elevenlabs";
 
 const fileTypes = ["MP3"];
 
 function DragDrop({ setAudio, setDGTranscript }) {
   const [loading, setLoading] = useState(false);
+  let Axe;
   const [error, setError] = useState(false);
   const file = useRef(null);
-
   const handleChange = (file) => {
     setLoading(true);
     setAudio(file);
@@ -31,6 +32,8 @@ function DragDrop({ setAudio, setDGTranscript }) {
       })
         .then((response) => response.json())
         .then((result) => {
+          Axe = result.elevenlabs
+          // console.log(Axe)
           setDGTranscript(JSON.parse(result.body).channels[0].alternatives[0]);
           setLoading(false);
         })
@@ -60,3 +63,6 @@ function DragDrop({ setAudio, setDGTranscript }) {
 }
 
 export default DragDrop;
+
+
+
